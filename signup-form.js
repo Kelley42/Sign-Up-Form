@@ -1,10 +1,13 @@
-const email = document.getElementById("user-email")
+const first_password = document.querySelector("#user-password");
+const second_password = document.querySelector("#user-confirm-password");
+const button = document.querySelector("#submit");
+const password_error = document.querySelector("span.error");
 
-email.addEventListener("input", (e) => {
-    if (email.validity.typeMismatch) {
-        email.setCustomValidity("I am ecpecting an email address!");
-        email.reportValidity();
-    } else {
-        email.setCustomValidity("");
+function showError() {
+    if (first_password.value != second_password.value) {
+        password_error.textContent = "* Passwords do not match"
     }
-});
+}
+
+
+button.addEventListener("click", showError)

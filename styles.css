@@ -100,6 +100,15 @@ input:invalid {
     border-color: gray;
 } */
 
+input:focus {
+    background-color:rgb(243, 254, 255);
+}
+
+.error {
+    color: rgb(194, 4, 4);
+    font-size: 12px;
+}
+
 button {
     width: 200px;
     margin: 30px 30px;
