@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <figure>
+        <img id="canyonpic" src="canyonpic.jpg" alt="picture of canyon">
+        <logo>
+            <img id="odinpic" src="image.png" alt="Odin logo">
+            <p>ODIN</p>
+        </logo>
+        <figcaption>Photo by <a href="https://unsplash.com/@ronan_el_dl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ronan Dorard</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
+    </figure>
+    <container>
+        <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <i>now</i> to get started.<br><br>You know you want to.</h1>
+        <form action="#" method="post">
+            <h2>Let's do this!</h2>
+            <fieldset>
+                <div class="input_fields">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name" maxlength="20" required>
+                </div>
+                <div class="input_fields">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name" maxlength="20" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="input_fields">
+                    <label for="user-email">Email</label>
+                    <input type="email" id="user-email" name="email" maxlength="30" required>
+                </div>
+                <div class="input_fields">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="tel" id="phone_number" name="phone_number" maxlength="14" required>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <div class="input_fields">
+                    <label for="user-password">Password</label>
+                    <input type="password" id="user-password" name="password" minlength="6" maxlength="20" required>
+                </div>
+                <div class="input_fields">
+                    <label for="user-confirm-password">Confirm Password</label>
+                    <input type="password" id="user-confirm-password" name="confirm-password" minlength="6" maxlength="20" required>
+                </div>
+            </fieldset>
+        </form>
+        <button type="submit">Create Account</button>
+        <h3>Already have an account? <a href="">Log in</a></h3>
+    </container>
+  
+</body>
+</html>

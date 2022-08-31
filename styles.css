@@ -1,0 +1,115 @@
+html {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+body { 
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    margin: 0 250px;
+}
+
+figure {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+    justify-content: center;
+}
+
+#canyonpic {
+    height: 100vh;
+    width: auto;
+    z-index: 1;
+    /* position: absolute; */
+}
+
+logo {
+    background-color: black;
+    opacity: 0.3;
+    width: 720px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+}
+
+logo p {
+    color: white;
+    font-size: 90px;
+    z-index: 4;
+    margin: 0;
+}
+
+#odinpic {
+    height: 100px;
+}
+
+figcaption {
+    color: white;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+}
+
+figcaption a {
+    color: white;
+}
+
+h1 {
+    padding: 150px 50px 50px 30px;
+    font-size: 22px;
+    font-family: Roboto;
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 249, 252);
+}
+
+form {
+    padding: 0 30px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    border: none;
+}
+
+.input_fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+/* input:valid {
+    border-color: black;
+}
+
+input:invalid {
+    border-color: gray;
+} */
+
+button {
+    width: 200px;
+    margin: 30px 30px;
+    padding: 10px 10px;
+    background-color: rgb(125, 199, 204);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 12%;
+}
+
+h3 {
+    padding: 0 30px;
+}
